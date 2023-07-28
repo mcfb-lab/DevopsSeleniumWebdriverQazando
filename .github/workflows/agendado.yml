@@ -2,7 +2,7 @@ name: Testes Agendado
 
 on:
   schedule:
-    - cron: "50 18 28 7 5"
+    - cron: '53 18 28 7 5'
 
 jobs:
   RunTest:
