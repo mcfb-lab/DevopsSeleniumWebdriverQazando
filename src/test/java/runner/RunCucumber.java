@@ -8,9 +8,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"json:target/reports/cucumberTests.json", "html:target/reports/"},
-        features = "src/test/resources/features/login.feature",
+        features = "src/test/resources/features",
         glue = {"steps"},
-        tags = {"not @tag"}
+        tags = {"@login"}
 )
 public class RunCucumber extends RunBase{
 
